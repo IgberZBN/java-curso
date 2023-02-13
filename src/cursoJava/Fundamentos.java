@@ -19,6 +19,22 @@ public class Fundamentos {
 		System.out.println(temperatura);
 		System.out.println(arCondicionado);
 		
+		System.out.println("---------------------");
+		System.out.println("");
+		
+		double i = 10;
+		System.out.println("Operadores Aritmeticos e Atribuicoes");
+		System.out.println("Exemplos:");
+		System.out.println("i = " + i);
+		System.out.println("i = " + i + " + 5 | i = " + (i + 5));
+		System.out.println("i = " + i + " - 5 | i = " + (i - 5));
+		System.out.println("i = " + i + " * 5 | i = " + (i * 5));
+		System.out.println("i = " + i + " / 5 | i = " + (i / 5));
+		System.out.println("i = " + i + " % 5 | i = " + (i % 5));
+		System.out.println("i +=         | i = " + (i += 5));
+		System.out.println("i -=         | i = " + (i -= 5));
+		System.out.println("i *=         | i = " + (i *= 5));
+		System.out.println("i /=         | i = " + (i /= 5));
 	}
 
 }
