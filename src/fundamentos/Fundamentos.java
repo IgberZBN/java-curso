@@ -1,4 +1,4 @@
-package cursoJava;
+package fundamentos;
 
 public class Fundamentos {
 
@@ -102,7 +102,7 @@ public class Fundamentos {
 		char novoJogo;
 		do {
 			System.out.println("Deseja jogar novamente(s/n)?");
-			novoJogo = 'n'
+			novoJogo = 'n';
 		} while (novoJogo == 's');
 		System.out.println("GAME OVER");
 	}
