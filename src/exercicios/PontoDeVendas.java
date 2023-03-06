@@ -1,15 +1,15 @@
-package exercicios;
+ package exercicios;
 
 import java.util.Scanner;
 
 public class PontoDeVendas {
 	public static void main(String[] args) {
-		//variaveis
+		// variaveis
 		double total, valorPago, troco, valorDesconto;
 		int desconto;
-		//objetos
+		// objetos
 		Scanner teclado = new Scanner(System.in);
-		//entrada
+		// entrada
 		System.out.println("Ponto de vendas");
 		System.out.print("Valor total: ");
 		total = teclado.nextDouble();
@@ -21,7 +21,8 @@ public class PontoDeVendas {
 		System.out.print("Valor pago: ");
 		valorPago = teclado.nextDouble();
 		troco = valorPago - valorDesconto;
-		//processamento
+		// processamento
 		System.out.print("Troco:" + troco);
+		teclado.close();
 	}
 }
